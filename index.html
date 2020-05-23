@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Togaf - Corponor</title>
+
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/27def8d1d2.js" crossorigin="anonymous"></script>
+
+</head>
+<body class="fondo">
+
+<!-- As a heading -->
+<nav class="navbar navbar-dark bg-dark sticky-top">
+
+    <a class="navbar-brand" href="index.html">
+        <img src="img/logo-corponor.png" width="10%" class="d-inline-block align-top" alt="" loading="lazy">
+        Arquitectura Empresarial: Corponor
+    </a>
+</nav>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xl-2 col-12 text-left menu pt-2">
+            <ul>
+                <li class="sinpunto link"> <a class="circulo green mb-3" onclick="info('preliminar');">Preliminar</a> </li>
+                <li class="sinpunto link"> <a class="circulo green mb-3" onclick="info('vision');">Visión</a> </li>
+                <li class="sinpunto link"> <a class="circulo green mb-3" onclick="info('negocio');">Negocio</a> </li>
+                <li class="sinpunto link"> <a class="circulo green mb-3" onclick="info('sistemas');">Sis. Info.</a> </li>
+                <li class="sinpunto link"> <a class="circulo green mb-3" onclick="info('tech');">Technología</a> </li>
+                <li class="sinpunto link"> <a class="circulo blue mb-3" onclick="info('proyectos');"> Proyectos </a> </li>
+            </ul>
+        </div>
+        <div id="togaf-intro" class="offset-lg-1 col-xl-8 col-12 mt-5">
+            <div class="row">
+                <div class="col-6 text-left">
+                    <img src="img/unisimon.png" width="70%" alt="">
+                </div>
+                <div class="col-6 text-right">
+                    <img src="img/logo-corponor.png" width="20%" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center titulopadding">
+                    <h1 class="font-weight-bold">Arquitectura Empresarial Corpornor</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-right titulopadding">
+                    <h3>Gianfranco Giordano</h3>
+                    <h3>Karla Clavijo</h3>
+                    <h3>Prof. Miltón Jesús Vera</h3>
+                </div>
+            </div>
+        </div>
+        <div class="offset-lg-1 col-xl-8 col-12 mt-5" id="togaf-pages" style="display: none">
+
+            <div id="fase-togaf" style="display: none">
+
+                <div class="row">
+
+                    <div class="col-12 col-xl-5">
+
+                        <h2 id="titulo-fase" class="animate__animated animate__bounceInDown"> Titulo de la Fase </h2>
+                        <hr class="animate__animated animate__bounceInDown">
+
+                        <p id="resumen-fase" class="animate__animated animate__bounceInDown"></p>
+
+                        <button class="btn btn-primary animate__animated animate__bounceInLeft"
+                                id="btninfo"
+                                type="button"
+                                data-toggle="modal"
+                                data-target="#fase-togaf-modal">
+                            Más información <i class="fas fa-info-circle"></i> </button>
+                    </div>
+                    <div class="col-12 col-xl-7">
+                        <img id="img-fase" class="animate__animated animate__bounceInLeft" src="" width="110%" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="fase-togaf-modal" tabindex="-1" role="dialog" aria-labelledby="fase-togafLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-titulo">Modal title</h5>
+            </div>
+            <div class="modal-body">
+
+                <div class="row align-items-center">
+                    <div class="col-8">
+                        <img id="img-modal" src="" width="90%" alt="">
+                    </div>
+                    <div class="col-4 text-center">
+                        <p id="modal-resumen"></p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Atrás <i class="fas fa-undo-alt"></i></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+        crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+<script src="./adm.js"></script>
+</body>
+</html>

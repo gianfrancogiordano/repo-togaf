@@ -1,0 +1,69 @@
+{
+    "preliminar":{
+        "titulo":"Corponor",
+            "resumen":"&nbsp;&nbsp;&nbsp;&nbsp;En los últimos tiempos, se ha hecho indispensable estar a la vanguardia tecnológica en cuanto al manejo y administración de la entidades o instituciones en todas sus áreas, siendo el control de la información una de las más importantes para un óptimo funcionamiento de ella; es por este motivo, que las entidades públicas como es el caso de CORPONOR, que tiene contacto directo con el ciudadano en su funciones de autoridad ambiental, cuente con una adecuada infraestructura tecnológica que le permitan estar y mantenerse a la vanguardia en el desarrollo tecnológico que ésta demanda.",
+            "img":"img/preliminar.png",
+            "modal":{
+                "active": true,
+                "titulo":"Estructura Organizacional",
+                "resumen":"&nbsp;&nbsp;&nbsp;&nbsp;El crecimiento en los últimos años de la Corporación, ha generado grandes cambios para brindar un servicio de excelente calidad a los clientes internos y externos, de la misma manera, el departamento de Tecnologías de la Información, a través de <span class=\"text-success font-weight-bold\">tecnologias verdes</span>, debe responder a las exigencias del desarrollo corporativo, con una infraestructura adecuada, para así brindar a sus usuarios, servicios informáticos ágiles, veraces, dinámicos y seguros, que permitan realizar todas las actividades que se necesitan para mantener a la entidad como una de las instituciones de autoridad ambiental líderes a nivel tecnológico en el país.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;CORPONOR cuenta con la siguiente estructura organizacional para implementar sus funciones y objetivos estratégicos definidos. De acuerdo a su operación está dividida principalmente en, la estructura directiva, las oficinas asesoras y de control, las subdirecciones y las direcciones territoriales.",
+                "img":"img/estructuraorg.png"
+            }
+    },
+    "vision":{
+        "titulo":"Objetivos Empresariales",
+            "resumen":"&nbsp;&nbsp;&nbsp;&nbsp;La actualización de los objetivos, adoptó nuevos conceptos, metodologías y lineamientos, en particular en la Arquitectura TI, aplicando tecnologías verdes y green computting, la cual tiene como propósito lograr que la corporación sea más eficiente.",
+            "img":"img/objetivos.png",
+            "modal":{
+                "active": true,
+                "titulo":"Motivaciones y Metas",
+                "resumen":"&nbsp;&nbsp;&nbsp;&nbsp;Se implementó una plataforma <span class=\"text-success font-weight-bold\">Green computing</span>, que permite integrar mediante software y hardware los procesos de las diferentes áreas de trabajo.<br><br><ul><li>Optimizamos los recursos y los procesos de la organización a través de <span class=\"text-success font-weight-bold\">Green computing</span>.<br></li><li>Minimizamos tarea manuales realizada por los usuarios.<br></li><li>Velamos por la Seguridad y disponibilidad de la información para garantizar la toma de decisiones por parte de la directiva.</li></ul>",
+                "img":"img/servidores.png"
+            }
+    },
+    "negocio":{
+        "titulo":"El Negocio",
+            "resumen":"&nbsp;&nbsp;&nbsp;&nbsp;Para la obtención de los resultados de esta fase se tuvo en cuenta los principios del negocio y las capacidades evaluadas en la visión de arquitectura. El objetivo de esta fase consistió en desarrollar la arquitectura objetivo, que describa como la empresa necesita operar para alcanzar las metas del negocio.<br><br><ol><li class=\"numeros\">Dirección General: Desarrolla la planeación estratégica de la organización de la mano con el departamento de TI<br><br></li><li class=\"numeros\">Planificación y Gobierno TI<br><br></li><li class=\"numeros\">Brindar información sobre problematicas ambientales</li></ol>",
+            "img":"img/negocio.png",
+            "modal":{
+                "active": true,
+                "titulo":"Mapa de Procesos",
+                "resumen":"&nbsp;&nbsp;&nbsp;&nbsp;Más que proporcionar apoyo, asesoramiento o asistencia a otras áreas, el proceso estratégico tecnológico de hoy debe ser visto de una manera mucho más profunda. Además de proporcionar el hardware y software para ayudar a otras áreas, los procesos tecnológicos se convierten, cada vez más, en el núcleo corporativo, su razón de ser.",
+                "img":"img/procesos.png"
+            }
+    },
+    "sistemas":{
+        "titulo":"Sistemas de Información",
+            "resumen":"&nbsp;&nbsp;&nbsp;&nbsp;Una vez identificados los sistemas de información de CORPONOR, se diseña la  arquitectura de sistemas de información de acuerdo a su carácter\n",
+            "img":"img/sistema_informacion.png",
+            "modal":{
+                "active": false,
+                "titulo":"",
+                "resumen":"",
+                "img":""
+        }
+    },
+    "tech":{
+        "titulo":"Tecnologías",
+            "resumen":"<ol><li>Se Optimizaron los recursos de los procesos de la organización a través de Green computing.</li><li> Se minimizaron las tareas manuales realizada por los usuarios</li><li>Se Vela por la Seguridad y disponibilidad de la información para garantizar la toma de decisiones por parte de la directiva</li></ol>",
+            "img":"img/TOGAF-aplicaciones.png",
+            "modal":{
+                "active": false,
+                "titulo":"",
+                "resumen":"",
+                "img":""
+        }
+    },
+    "proyectos":{
+        "titulo":"Proyectos a Ejecutar",
+            "resumen":"En esta fase se proponen los proyectos a ejecutar para resolver los problemas encontrados en el analisis de la empresa",
+            "img":"img/proyectos.png",
+            "modal":{
+                "active": false,
+                "titulo":"",
+                "resumen":"",
+                "img":""
+        }
+    }
+}
+
